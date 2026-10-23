@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Demo">
+
+    <!-- UI Tests -->
+    <test name="Regression">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.PurchaseFlowTest"/>
+        </classes>
+    </test>
+    <!-- API Tests -->
+
+    <test name="API Automations">
+
+        <classes>
+            <class name="apitest.Tests.AuthenticationTests"/>
+            <class name="apitest.Tests.BookingCrudTest"/>
+        </classes>
+    </test>
+</suite>

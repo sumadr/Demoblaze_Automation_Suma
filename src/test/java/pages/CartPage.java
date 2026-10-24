@@ -2,6 +2,8 @@ package pages;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import org.testng.annotations.Test;
+
 
 public class CartPage {
 
@@ -49,6 +51,7 @@ public class CartPage {
     /**
      * Open Cart Page
      */
+    @Test(priority = 1)
     public void openCart() {
 
         cartLink.click();
@@ -61,6 +64,7 @@ public class CartPage {
     /**
      * Verify Product Exists
      */
+    @Test(priority = 2)
     public boolean productExists(String productName) {
 
         return page.locator(
@@ -71,6 +75,7 @@ public class CartPage {
     /**
      * Click Place Order
      */
+    @Test(priority = 3)
     public void clickPlaceOrder() {
 
         placeOrderBtn.waitFor();
@@ -81,6 +86,7 @@ public class CartPage {
     /**
      * Complete Purchase
      */
+    @Test(priority = 4)
     public void completePurchase(
             String customerName,
             String customerCountry,
@@ -102,6 +108,7 @@ public class CartPage {
     /**
      * Get Order Confirmation Text
      */
+    @Test(priority = 6)
     public String getPurchaseConfirmation() {
 
         confirmationMessage.waitFor();
@@ -112,6 +119,7 @@ public class CartPage {
     /**
      * Get Confirmation Details
      */
+    @Test(priority = 7)
     public String getConfirmationDetails() {
 
         return page.locator(".sweet-alert p")
@@ -121,6 +129,7 @@ public class CartPage {
     /**
      * Close Success Popup
      */
+    @Test(priority = 8)
     public void clickOk() {
 
         okButton.click();
@@ -129,6 +138,7 @@ public class CartPage {
     /**
      * Get Cart Total
      */
+    @Test(priority = 9)
     public String getTotalAmount() {
 
         return totalAmount.textContent();

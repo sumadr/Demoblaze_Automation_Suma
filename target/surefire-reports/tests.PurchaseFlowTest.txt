@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: tests.PurchaseFlowTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 1, Skipped: 3, Time elapsed: 147.8 s <<< FAILURE! -- in tests.PurchaseFlowTest
-tests.PurchaseFlowTest.purchase[3] -- Time elapsed: 30.59 s <<< ERROR!
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 3, Time elapsed: 145.0 s <<< FAILURE! -- in tests.PurchaseFlowTest
+tests.PurchaseFlowTest.purchase[3] -- Time elapsed: 30.65 s <<< ERROR!
 com.microsoft.playwright.TimeoutError: 
 Error {
   message='Timeout 30000ms exceeded.
   name='TimeoutError
   stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\sumdr\AppData\Local\Temp\playwright-java-2460660911367274221\package\lib\server\progress.js:65:26)
-    at FrameDispatcher._runCommand (C:\Users\sumdr\AppData\Local\Temp\playwright-java-2460660911367274221\package\lib\server\dispatchers\dispatcher.js:91:31)
-    at DispatcherConnection.dispatch (C:\Users\sumdr\AppData\Local\Temp\playwright-java-2460660911367274221\package\lib\server\dispatchers\dispatcher.js:322:39)
+    at ProgressController.run (C:\Users\sumdr\AppData\Local\Temp\playwright-java-12005541540666499349\package\lib\server\progress.js:65:26)
+    at FrameDispatcher._runCommand (C:\Users\sumdr\AppData\Local\Temp\playwright-java-12005541540666499349\package\lib\server\dispatchers\dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (C:\Users\sumdr\AppData\Local\Temp\playwright-java-12005541540666499349\package\lib\server\dispatchers\dispatcher.js:322:39)
 }
 Call log:
 -   - waiting for locator("//a[text()='Samsung galaxy s6']")
@@ -123,9 +123,9 @@ Caused by: com.microsoft.playwright.TimeoutError: Error {
   message='Timeout 30000ms exceeded.
   name='TimeoutError
   stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\sumdr\AppData\Local\Temp\playwright-java-2460660911367274221\package\lib\server\progress.js:65:26)
-    at FrameDispatcher._runCommand (C:\Users\sumdr\AppData\Local\Temp\playwright-java-2460660911367274221\package\lib\server\dispatchers\dispatcher.js:91:31)
-    at DispatcherConnection.dispatch (C:\Users\sumdr\AppData\Local\Temp\playwright-java-2460660911367274221\package\lib\server\dispatchers\dispatcher.js:322:39)
+    at ProgressController.run (C:\Users\sumdr\AppData\Local\Temp\playwright-java-12005541540666499349\package\lib\server\progress.js:65:26)
+    at FrameDispatcher._runCommand (C:\Users\sumdr\AppData\Local\Temp\playwright-java-12005541540666499349\package\lib\server\dispatchers\dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (C:\Users\sumdr\AppData\Local\Temp\playwright-java-12005541540666499349\package\lib\server\dispatchers\dispatcher.js:322:39)
 }
 Call log:
 -   - waiting for locator("//a[text()='Samsung galaxy s6']")

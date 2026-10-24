@@ -3,6 +3,10 @@ C:\Suma_docs\DemoBlaze_Playwright_Complete_Framework\src\test\java\apitest\clien
 C:\Suma_docs\DemoBlaze_Playwright_Complete_Framework\src\test\java\apitest\clients\BookingAPI.java
 C:\Suma_docs\DemoBlaze_Playwright_Complete_Framework\src\test\java\apitest\models\BookingDates.java
 C:\Suma_docs\DemoBlaze_Playwright_Complete_Framework\src\test\java\apitest\models\BookingRequest.java
+C:\Suma_docs\DemoBlaze_Playwright_Complete_Framework\src\test\java\apitest\Tests\AuthenticationTests.java
+C:\Suma_docs\DemoBlaze_Playwright_Complete_Framework\src\test\java\apitest\Tests\BookingCrudTest.java
+C:\Suma_docs\DemoBlaze_Playwright_Complete_Framework\src\test\java\apitest\Tests\CreateBookingTests.java
+C:\Suma_docs\DemoBlaze_Playwright_Complete_Framework\src\test\java\apitest\Tests\NegativeApiTest.java
 C:\Suma_docs\DemoBlaze_Playwright_Complete_Framework\src\test\java\apitest\utils\JsonUtils.java
 C:\Suma_docs\DemoBlaze_Playwright_Complete_Framework\src\test\java\base\BaseTest.java
 C:\Suma_docs\DemoBlaze_Playwright_Complete_Framework\src\test\java\pages\CartPage.java
@@ -18,4 +22,5 @@ C:\Suma_docs\DemoBlaze_Playwright_Complete_Framework\src\test\java\tests\LoginTe
 C:\Suma_docs\DemoBlaze_Playwright_Complete_Framework\src\test\java\tests\ProductTest.java
 C:\Suma_docs\DemoBlaze_Playwright_Complete_Framework\src\test\java\tests\PurchaseFlowTest.java
 C:\Suma_docs\DemoBlaze_Playwright_Complete_Framework\src\test\java\tests\RegistrationTest.java
+C:\Suma_docs\DemoBlaze_Playwright_Complete_Framework\src\test\java\utils\ExtentManager.java
 C:\Suma_docs\DemoBlaze_Playwright_Complete_Framework\src\test\java\utils\RetryAnalyzer.java
